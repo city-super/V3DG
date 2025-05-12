@@ -1,0 +1,16 @@
+# [V3DG]
+
+_3dgs-assets/*
+!_3dgs-assets/donut/
+!_3dgs-assets/README.md
+_v3dg-bundles/*
+# _layout-descriptions/
+_output*
+
+# [Temporary]
+
+_playground*
+
+# [Python]
+
+__pycache__

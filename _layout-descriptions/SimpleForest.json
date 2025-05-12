@@ -1,0 +1,206 @@
+{
+    "layouts": [
+        {
+            "layout_name": "layout_0",
+            "assets": [
+                {
+                    "asset_kind": "trees",
+                    "asset_name": "bonsai",
+                    "ply_suffix": "point_cloud/iteration_30000/fused.ply",
+                    "bundle_kind": "trees",
+                    "bundle_name": "bonsai_250414-183111_iter640_nginc4096_ncincg2",
+                    "instances": [
+                        {
+                            "scale": 1.0,
+                            "instance_name": "instance_111",
+                            "quaternions": [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "positions": [
+                                0.75,
+                                0.0,
+                                0.0
+                            ]
+                        },
+                        {
+                            "scale": 2.0,
+                            "instance_name": "instance_222",
+                            "quaternions": [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "positions": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ]
+                        },
+                        {
+                            "scale": 1.0,
+                            "instance_name": "instance_333",
+                            "quaternions": [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "positions": [
+                                -0.75,
+                                0.0,
+                                0.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "asset_kind": "trees",
+                    "asset_name": "oak",
+                    "ply_suffix": "point_cloud/iteration_30000/fused.ply",
+                    "bundle_kind": "trees",
+                    "bundle_name": "oak_250414-193032_iter640_nginc4096_ncincg2",
+                    "instances": [
+                        {
+                            "scale": 2.0,
+                            "instance_name": "instance_111",
+                            "quaternions": [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "positions": [
+                                -1.5,
+                                0.866,
+                                0.0
+                            ]
+                        },
+                        {
+                            "scale": 1.0,
+                            "instance_name": "instance_222",
+                            "quaternions": [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "positions": [
+                                -0.75,
+                                1.732,
+                                0.0
+                            ]
+                        },
+                        {
+                            "scale": 0.5,
+                            "instance_name": "instance_333",
+                            "quaternions": [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "positions": [
+                                -0.25,
+                                2.165,
+                                0.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "asset_kind": "trees",
+                    "asset_name": "desk",
+                    "ply_suffix": "point_cloud/iteration_30000/fused.ply",
+                    "bundle_kind": "trees",
+                    "bundle_name": "desk_250414-185219_iter640_nginc4096_ncincg2",
+                    "instances": [
+                        {
+                            "scale": 2.0,
+                            "instance_name": "instance_111",
+                            "quaternions": [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "positions": [
+                                1.5,
+                                0.866,
+                                0.0
+                            ]
+                        },
+                        {
+                            "scale": 1.0,
+                            "instance_name": "instance_222",
+                            "quaternions": [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "positions": [
+                                0.75,
+                                1.732,
+                                0.0
+                            ]
+                        },
+                        {
+                            "scale": 0.5,
+                            "instance_name": "instance_333",
+                            "quaternions": [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "positions": [
+                                0.25,
+                                2.165,
+                                0.0
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "cameras": [
+                {
+                    "camera_name": "camera_3",
+                    "camera_width": 1920,
+                    "camera_height": 1080,
+                    "camera_angle_x": 0.7853981852531433,
+                    "camera_angle_y": 0.45782234845589415,
+                    "transform_matrix": [
+                        [
+                            -1.0,
+                            1.2246467991473532e-16,
+                            -0.0,
+                            3.54875391413601e-16
+                        ],
+                        [
+                            -3.169619151431762e-17,
+                            -0.2588190451025205,
+                            0.9659258262890683,
+                            5.79555495773441
+                        ],
+                        [
+                            1.1829179713786698e-16,
+                            0.9659258262890683,
+                            0.2588190451025205,
+                            1.5529142706151244
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
+}
