@@ -6,7 +6,7 @@
 
 (SIGGRAPH 2025 Conference Paper)
 
-[Xijie Yang](https://orcid.org/0009-0009-3076-2595), [Linning Xu](https://eveneveno.github.io/lnxu/), [Lihan Jiang](https://jianglh-whu.github.io/), [Dahua Lin](http://dahua.site/), and [Bo Dai](https://daibo.info/)
+[Xijie Yang](https://orcid.org/0009-0009-3076-2595), [Linning Xu](https://eveneveno.github.io/lnxu/), [Lihan Jiang](https://jianglh-whu.github.io/), [Dahua Lin](http://dahua.site/), [Bo Dai](https://daibo.info/)
 
 ![](./_media/framework.jpeg)
 
@@ -37,9 +37,9 @@ python v3dg-build.py --ASSET_KIND donut --ASSET_NAME donut --ASSET_GSPLY_FILENAM
 python v3dg-build.py --ASSET_KIND donut --ASSET_NAME donut --ASSET_GSPLY_FILENAME point_cloud/iteration_30000/fused.ply
 ```
 
-The build process generates a bundled version of the asset in [`./_v3dg-bundles/`](./_v3dg-bundles/), which includes clusters at multiple levels of detail.
+The build process generates a bundle of the asset in `./_v3dg-bundles/`, which includes clusters at multiple levels of detail.
 
-To see all available parameters for `v3dg-build.py`, refer to the `VGBuildConfig` class in [`./libraries/cliconfigs.py`](./libraries/cliconfigs.py).
+To see all available parameters for [`v3dg-build.py`](./v3dg-build.py), refer to the `VGBuildConfig` class in [`./libraries/cliconfigs.py`](./libraries/cliconfigs.py).
 
 To build all assets used in the paper, see the scripts in [`./_scripts/`](./_scripts/) ([`./_scripts/v3dg-build.sh`](./_scripts/v3dg-build.sh), [`./_scripts/v3dg-build-ablations.sh`](./_scripts/v3dg-build-ablations.sh), and [`./_scripts/v3dg-build-not-rectified-scenes.sh`](_scripts/v3dg-build-not-rectified-scenes.sh)).
 
@@ -62,9 +62,9 @@ python v3dg-select.py --LAYOUT_DESCRIPTION_JSON ./_layout-descriptions/_SingleDo
 python v3dg-select.py --LAYOUT_DESCRIPTION_JSON ./_layout-descriptions/DonutSea.json --TAU 2048
 ```
 
-Renders (approx. 5 GB per scene) are saved in [`./_output/`](./_output/), along with metrics recorded in `_metrics.py` and each filename.
+Renders (approx. 5 GB per scene) are saved in `./_output/`, along with metrics recorded in `_metrics.py` and each filename.
 
-To see all parameters for `v3dg-select.py`, refer to `VGSelectConfig` in [`./libraries/cliconfigs.py`](./libraries/cliconfigs.py).
+To see all parameters for [`v3dg-select.py`](./v3dg-select.py), refer to `VGSelectConfig` in [`./libraries/cliconfigs.py`](./libraries/cliconfigs.py).
 
 To render all composed scenes used in the paper, check [`./_scripts/`](./_scripts/) ([`./_scripts/v3dg-select.sh`](./_scripts/v3dg-select.sh), [`./_scripts/v3dg-select-ablations.sh`](./_scripts/v3dg-select-ablations.sh), and [`./_scripts/v3dg-select-comparisons.sh`](./_scripts/v3dg-select-comparisons.sh)). For rendering parts in the supplementart video, check [`./_layout-descriptions/_videos/`](./_layout-descriptions/_videos/).
 
